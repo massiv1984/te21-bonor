@@ -1,0 +1,21 @@
+{
+  "name": "te21-bonor",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -e js,html,njk,json ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "nunjucks": "^3.2.4"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
