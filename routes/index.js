@@ -22,3 +22,12 @@ router.get('/reviews/:id', function (req, res) {
 })
 
 module.exports = router
+
+router.get('/newbean', function(req, res){
+  res.render('newbean.njk', { title: 'ny böna' })
+})
+
+router.post('/newbean', async function (req, res) {
+  console.log(req.body)
+  res.json(req.body)
+})

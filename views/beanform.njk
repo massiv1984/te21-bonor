@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+<main class="wrapper">
+    <h1>lägg till bönor</h1>
+    <form action="/newbean" method="post">
+        <input type="text" id="bean" name="bean" required>
+        <textarea 
+            name="description"
+            id="description" 
+            cols="30" 
+            rows="10"></textarea>
+        <input type="submit" value="skapa ny böna">
+    </form>
+</main>
+{% endblock %}
